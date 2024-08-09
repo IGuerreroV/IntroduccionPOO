@@ -4,15 +4,9 @@ include 'includes/header.php';
 
 // Definir una clase
 class Producto {
-    public $nombre;
-    public $precio;
-    public $disponible;
 
-    public function __construct(string $nombre, int $precio, bool $disponible)
+    public function __construct(public string $nombre, public int $precio, public bool $disponible)
     {
-        $this->nombre = $nombre;
-        $this->precio = $precio;
-        $this->disponible = $disponible;
     }
 }
 
