@@ -1,5 +1,7 @@
 <?php include 'includes/header.php';
 
+    require 'vendor/autoload.php';
+
 // require 'clases/Clientes.php';
 // require 'clases/Detalles.php';
 

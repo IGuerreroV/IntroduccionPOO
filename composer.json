@@ -1,0 +1,17 @@
+{
+    "name": "ivang/introduccion-poo",
+    "description": "Aprendiendo Namespaces y Autoload",
+    "authors": [
+        {
+            "name": "Ivan",
+            "email": "correo@correo.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./clases"
+        }
+    }
+}
